@@ -1,0 +1,28 @@
+/* Botão - Secundário */
+.btn-secondary {
+  background-color: #3F51B5;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  display: inline-block;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn-secondary:hover {
+  background-color: #303F9F;
+  transform: scale(1.05);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+/* Botão - Secundário - com efeito de brilho */
+.btn-secondary:active {
+  background-color: #3F51B5;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: scale(0.98);
+  transition: all 0.1s ease-in-out;
+}
